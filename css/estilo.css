@@ -1,0 +1,244 @@
+body{
+	font-family: "Crimson+Text:ital@1&family","Dancing+Script", cursive;
+
+
+
+}
+
+h1,h2,h3{
+
+	margin:0;
+	font-family: Cookie, Handlee, cursive;
+	font-weight: 700;
+
+
+}
+
+p{
+	font-family:"Dancing+Script","Crimson+Text:ital@1&family", cursive;
+
+}
+
+.logo img{
+	border-radius: 50%;
+}
+nav{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: #00BFFF;
+	padding: 30px;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+
+}
+nav ul li{
+	text-align: center;
+	width: 100%;
+	font-size: 1.5em;
+	padding: 2%;
+
+
+}
+nav ul li a{
+	display: inline-block;
+	padding: 10px 0;
+	width: 100%;
+	text-decoration: none;
+	color: #fff;
+}
+header{
+	background-image: url('../img/ela.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding: 30px;
+
+}
+header p{
+	margin-bottom: 2em;
+	font-size: 1.7em;
+}
+.container{
+	width: 100%;
+
+}
+.botao{
+	color: #fff;
+	text-decoration: none;
+	padding: 10px 30px;
+	background-color: #00BFFF;
+	font-size: .8em;
+	border-radius: 15%;
+}
+#sobre {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	background-color: #00BFFF;
+	color: #fff; 
+}
+#sobre h2{
+	margin-top: 20px;
+	font-size: 2em;
+
+}
+.foto img{
+	width: 60%;
+}
+.foto{
+	float: left;
+	width: 50%;
+}
+.texto{
+	float: right;
+	width: 50%;
+}
+#especialidades{
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	margin: 0 auto;
+}
+#especialidades div{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+margin-top: 30px;
+}
+#especialidades p{
+	line-height: 1.5;
+	margin: 2vh;
+	font-size: 1.2em;
+}
+#especialidades img{
+	margin: 10px 0;
+}
+#especialidades h2{
+	font-size: 2em
+}
+#competencias{
+	display: flex;	
+	flex-direction:column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px; 
+}
+#competencias h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+#competencias h3{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+#competencias p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+#competencias a{
+	text-decoration: none;
+}
+#competencias img{
+	width: 100%;
+	margin-bottom: 0;
+}
+#competencias .comp p{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 20%;
+	margin-top: 0;
+	font-family: "Gochi Hand", "Helvetica", "Arial", sans-serif;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.5;
+}
+#especialidades {
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	max-width: 1000px;
+	margin: 0 auto;
+}
+#especialidades h2{
+	text-align: center;
+	width: 100%;
+}
+#especialidades div{
+	flex-grow: 1;
+	flex-basis: 150px;
+	padding: 0 10px;
+}
+#competencias {
+	flex-direction:  row;
+	flex-wrap: wrap;
+}
+#competencias h2{
+	width: 100%;
+	text-align: center;
+}
+#competencias h3{
+	width: 100%;
+	text-align: center;
+}
+#competencias .comp{
+	width: 33.3333333333%;
+	text-align: center;
+}
+
+
+
+@media screen and (min-width: 768px){
+	nav{
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	nav ul{
+		flex-direction: row;
+		width: 70%;
+	}
+header{
+	height: 60vh;
+	justify-content: center;
+}
+#sobre{
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	height: 90vh;
+	justify-content: center;
+	min-height: 80vh;
+}
+#sobre h2{
+	text-align: center;
+	width: 100%}
+#sobre div{
+	flex-grow: 1;
+	flex-basis: 300px;
+	padding: 0 10px;
+}
+
