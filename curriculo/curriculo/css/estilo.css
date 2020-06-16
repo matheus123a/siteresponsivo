@@ -133,6 +133,131 @@ margin-top: 30px;
 #especialidades h2{
 	font-size: 2em
 }
+#competencias{
+	display: flex;	
+	flex-direction:column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #00BfFF; 
+}
+#competencias h2{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 2em;
+	text-align: center;
+}
+#competencias h3{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+#competencias p{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: center;
+}
+#competencias a{
+	text-decoration: none;
+}
+#competencias img{
+	width: 100%;
+	margin-bottom: 0;
+}
+#competencias .comp p{
+	border-left: 2px solid black;
+	border-right: 2px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 20%;
+	margin-top: 0;
+	font-family: "Gochi Hand", "Helvetica", "Arial", sans-serif;
+	padding-right: 15px;
+	padding-left: 15px;
+	line-height: 1.5;
+}
+.comp img{
+	border: 10px solid black;
+}
+#hobbie {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	width: 100%;
+	background-color: #00BfFF; 
+}
+#hobbie h2{
+	margin-top: 10px;
+	margin-bottom: 20px;
+	font-size: 2em;
+	text-align: center;
+}
+.hobbie {
+	width: 80%;
+	align-items: center;
+	text-align: center;
+}
+.hobbie h3{
+	font-size: 1.5em;
+	margin-top: 30px;
+	margin-bottom: 14px;
+}
+#contato{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	width: 100%;
+	background-color: #00BfFF ;
+}
+#contato h2{
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-size: 2em;
+	text-align: center;
+	width: 100%;
+	color: #F5F5F5;
+}
+#contato > p{
+	margin-bottom: 20px;
+	font-size: 1.2em;
+	text-align: center;
+	color: #F5F5F5;
+}
+#contato a{
+	text-decoration: none;
+	text-align: center;
+	font-family: Righteous,display;
+	color:#F5F5F5;
+}
+#contato{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	max-height: 40vh;
+	width: 100%;
+}
+
+#contato h2,
+#contato p {
+	width: 100%;
+	text-align: center;
+
+}
+.imgcode {
+	width: 90%;
+}
+
 #especialidades {
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -143,19 +268,28 @@ margin-top: 30px;
 #especialidades h2{
 	text-align: center;
 	width: 100%;
-	
-
 }
-
-
-
-
-
-
-
-
-
-
+#especialidades div{
+	flex-grow: 1;
+	flex-basis: 150px;
+	padding: 0 10px;
+}
+#competencias {
+	flex-direction:  row;
+	flex-wrap: wrap;
+}
+#competencias h2{
+	width: 100%;
+	text-align: center;
+}
+#competencias h3{
+	width: 100%;
+	text-align: center;
+}
+#competencias .comp{
+	width: 33.3333333333%;
+	text-align: center;
+}
 
 
 
@@ -187,5 +321,22 @@ header{
 	flex-grow: 1;
 	flex-basis: 300px;
 	padding: 0 10px;
+}
+#contato{
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	max-width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	max-height: 40vh;
+	width: 100%;
+}
+
+#contato h2,
+#contato p {
+	width: 100%;
+	text-align: center;
+
 }
 
